@@ -53,16 +53,3 @@ class ArticleHashTag(Base):
 
     article_id = Column(Integer, ForeignKey("articles.id"), primary_key=True)
     hashtag_id = Column(Integer, ForeignKey("hashtags.id"), primary_key=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
